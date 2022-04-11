@@ -12,7 +12,8 @@
                     "first-nested"
                 ]
             }
-        ]
+        ],
+        "length-zero-no-unit": true
     },
     "customSyntax": "postcss-scss"
 }

@@ -1,25 +1,30 @@
 # Stylelint
 
-Untested:
+In VSCode, to fix all fixable errors, open the Command Palette and choose *"Stylelint: Fix all auto-fixable problems"*
 
-- Install [VSCode stylelint plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
-- Add package.json & .stylelintrc.json to a root-level directory where you will have all your code (eg `~/code`)
-- `npm install -g`
+- Install [VSCode Stylelint plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+- Clone repo to your computer (eg `/Users/jeanine.schoessler/code/stylelint`)
+- cd to `stylelint` and `npm install`
+ 
 
-
-Manually update `node_modules/stylelint-config-rational-order/package.json` per [Allohamora's forked repo](https://github.com/Allohamora/stylelint-config-rational-order/blob/master/package.json) and `npm update` within `stylelint-config-rational-order`
-
-Add the language identifiers for the documents you want to validate to the extension's workspace or user settings using the stylelint.validate option.
-
-
-`@ext:stylelint.vscode-stylelint`
-
-Example VS Code config:
+## ExampleVS Code config:
 
 ```json
 {
-  "stylelint.validate": ["css", "scss"]
+  ...
+  "stylelint.snippet": [
+      "css",
+      "less",
+      "postcss",
+      "scss"
+    ],
+    "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss"
+    ],
+    "stylelint.configFile": "/Users/jeanine.schoessler/code/stylelint/.stylelintrc.json"
+    ...
 }
 ```
-
-[Migration notes 13 to 14](https://github.com/stylelint/vscode-stylelint#migrating-from-vscode-stylelint-0xstylelint-13x)
