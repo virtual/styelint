@@ -4,9 +4,10 @@
     ],
     "rules": {
         "order/properties-alphabetical-order": true,
-      
+        "color-hex-case": "lower",
         "at-rule-empty-line-before": [
             "always", {}
         ]
-    }
+    },
+    "customSyntax": "postcss-scss"
 }
