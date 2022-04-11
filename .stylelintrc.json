@@ -19,6 +19,13 @@
         "selector-combinator-space-before": "always",
         "indentation": [
             4
+        ],
+        "declaration-bang-space-before": "always",
+        "rule-empty-line-before": [
+            "always-multi-line", {
+                "ignore": ["after-comment"],
+                "except": ["first-nested"]
+            }
         ]
     },
     "customSyntax": "postcss-scss"
