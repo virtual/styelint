@@ -7,21 +7,17 @@ In VSCode, to fix all fixable errors, open the Command Palette and choose *"Styl
 - cd to `stylelint` and `npm install`
  
 
-## ExampleVS Code config:
+## Example VSCode config:
 
 ```json
 {
   ...
   "stylelint.snippet": [
       "css",
-      "less",
-      "postcss",
       "scss"
     ],
     "stylelint.validate": [
       "css",
-      "less",
-      "postcss",
       "scss"
     ],
     "stylelint.configFile": "/Users/jeanine.schoessler/code/stylelint/.stylelintrc.json"
