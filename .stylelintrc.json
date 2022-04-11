@@ -6,7 +6,12 @@
         "order/properties-alphabetical-order": true,
         "color-hex-case": "lower",
         "at-rule-empty-line-before": [
-            "always", {}
+            "always", {
+                "except": [
+                    "blockless-after-same-name-blockless",
+                    "first-nested"
+                ]
+            }
         ]
     },
     "customSyntax": "postcss-scss"
