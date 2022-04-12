@@ -90,6 +90,7 @@ Combinators (`>`, `+`, `~`) should have a space before and after:
         & + p {
             color: $theme-color-secondary;
         }
+        
         li ~ li {
             margin-top: 0;
         }
