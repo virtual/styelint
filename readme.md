@@ -29,7 +29,7 @@ In VSCode, to fix all fixable errors, open the Command Palette and choose *"Styl
 
 ## Creative Hive standards (2022 April):
 
-Use indentation of four (4) spaces and add new lines between selectors and css blocks; `0` should always be unitless `0` (not `0px` nor `0rem`):
+Use indentation of four (4) spaces and add new lines between selectors and css blocks; `0` should always be a unitless `0` (not `0px` nor `0rem`):
 
 ```scss
 .custom-hero-welcome {
