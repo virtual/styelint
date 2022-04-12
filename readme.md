@@ -85,6 +85,7 @@ Combinators (`>`, `+`, `~`) should have a space before and after:
 ```scss
 .selector > .child { 
     color: $theme-color-primary; 
+    
     &.anotherclass {
         & + p {
             color: $theme-color-secondary;
