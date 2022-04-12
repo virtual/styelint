@@ -29,7 +29,7 @@ In VSCode, to fix all fixable errors, open the Command Palette and choose *"Styl
 
 ## Creative Hive standards (2022 April):
 
-Use indentation of four (4) spaces and add new lines between selectors and css blocks; `0` should always be a unitless `0` (not `0px` nor `0rem`):
+Use indentation of four (4) spaces, and add new lines between selectors and css blocks; `0` should always be a unitless `0` (not `0px` nor `0rem`):
 
 ```scss
 .custom-hero-welcome {
@@ -64,7 +64,7 @@ Alphabetize attributes (`background-color` goes before `color`):
 }
 ```
 
-Hex colors: lowercase, can be full `#ffffff` or shorthand `#fff`:
+Use lowercase hex colors; can be written as 6-digit `#ffffff` or shorthand `#fff`:
 
 ```scss
 $theme-dark-blue:     #236192;
@@ -73,7 +73,7 @@ $theme-gray:          #3d4647;
 $theme-white:         #fff;
 ```
 
-Comment after `!important` why necessary:
+Write a comment after `!important` uses for why it's necessary:
 
 ```scss
 .lia-cancel-search {
@@ -104,7 +104,7 @@ Combinators (`>`, `+`, `~`) should have a space before and after:
 }
 ```
 
-Add space before opening curly brace (`{`):
+Add a space before opening curly braces (`{`) and place closing curly braces (`}`) on a new line:
 
 ```scss
 .selector { 
