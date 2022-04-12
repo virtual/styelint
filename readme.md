@@ -90,7 +90,7 @@ Combinators (`>`, `+`, `~`) should have a space before and after:
         & + p {
             color: $theme-color-secondary;
         }
-        
+
         li ~ li {
             margin-top: 0;
         }
@@ -109,6 +109,7 @@ Add space before opening curly brace (`{`):
 ```scss
 .selector { 
     color: $theme-color-primary; 
+    
     @include media(desktop-and-up) {
         @include flexbox();
         @include flex-direction(row-reverse);
