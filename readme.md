@@ -20,7 +20,8 @@ In VSCode, to fix all fixable errors, open the Command Palette and choose *"Styl
       "css",
       "scss"
     ],
-    "stylelint.configFile": "/Users/jeanine.schoessler/code/stylelint/.stylelintrc.json"
+    "stylelint.configFile": "/Users/jeanine.schoessler/code/stylelint/.stylelintrc.json",
+    "stylelint.config": null
     ...
 }
 ```
