@@ -13,13 +13,17 @@ In VSCode, to fix all fixable errors, open the Command Palette and choose *"Styl
 {
   ...
   "stylelint.snippet": [
-      "css",
-      "scss"
-    ],
-    "stylelint.validate": [
-      "css",
-      "scss"
-    ],
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
     "stylelint.configFile": "/Users/jeanine.schoessler/code/stylelint/.stylelintrc.json",
     "stylelint.config": null
     ...
