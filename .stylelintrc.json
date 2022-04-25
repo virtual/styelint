@@ -26,7 +26,13 @@
                 "ignore": ["after-comment"],
                 "except": ["first-nested"]
             }
-        ]
+        ],
+        "declaration-block-semicolon-newline-after": "always",
+        "declaration-colon-space-after": "always",
+        "selector-list-comma-newline-after": "always"
     },
-    "customSyntax": "postcss-scss"
+    "customSyntax": "postcss-scss",
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-colon-space-after": "always",
+    "selector-list-comma-newline-after": "always"
 }
