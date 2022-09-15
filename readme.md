@@ -109,6 +109,22 @@ Combinators (`>`, `+`, `~`) should have a space before and after:
 }
 ```
 
+Psuedo-elements content should support screenreaders with a default variation. (As of now there is no preference for `::` or `:`)
+
+```scss
+.selector::after {
+    content: "\f0a2";
+    content: "\f0a2" / "";
+}
+
+.selector {
+    &:before {
+        content: "\f007";
+        content: "\f007" / "";
+    }
+}
+```
+
 Add a space before opening curly braces (`{`) and place closing curly braces (`}`) on a new line:
 
 ```scss
